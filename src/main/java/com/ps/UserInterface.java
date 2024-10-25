@@ -1,11 +1,12 @@
 package com.ps;
 
 public class UserInterface {
-
+    Dealership dealership = new Dealership("name","address","phone");
     // static Dealership dealership;
     public static void init(){
         System.out.println("Init method");
-     //Loading dealership and inventory from file
+        System.out.println("");
+        //Loading dealership and inventory from file
     }
     public static void display(){
         init();
